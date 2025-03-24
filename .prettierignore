@@ -1,0 +1,13 @@
+# 빌드 디렉토리
+build/
+dist/
+
+# 패키지 파일
+node_modules/
+package-lock.json
+yarn.lock
+
+# 기타 파일
+.git/
+.DS_Store
+*.min.js
