@@ -1,19 +1,11 @@
-import { useState } from 'react';
 import './App.css';
-
+import Bulb from './components/Bulb';
+import Counter from './components/Counter';
 function App() {
-  const [state, setState] = useState(0);
-  console.log(state);
   return (
     <>
-      <h1>{state}</h1>
-      <button
-        onClick={() => {
-          setState(state + 1);
-        }}
-      >
-        증가
-      </button>
+      <Bulb />
+      <Counter />
     </>
   );
 }
